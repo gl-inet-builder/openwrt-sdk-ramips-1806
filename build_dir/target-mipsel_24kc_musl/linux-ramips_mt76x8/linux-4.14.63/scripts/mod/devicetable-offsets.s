@@ -15,13 +15,12 @@
  # -I ./arch/mips/include/asm/mach-ralink
  # -I ./arch/mips/include/asm/mach-ralink/mt7620
  # -I ./arch/mips/include/asm/mach-generic
- # -iprefix /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mipsel_24kc_gcc-7.3.0_musl/bin/../lib/gcc/mipsel-openwrt-linux-musl/7.3.0/
  # -idirafter /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/target-mipsel_24kc_musl/usr/include
  # -D __KERNEL__ -D VMLINUX_LOAD_ADDRESS=0xffffffff80000000 -D DATAOFFSET=0
  # -D GAS_HAS_SET_HARDFLOAT -D TOOLCHAIN_SUPPORTS_VIRT -D CC_HAVE_ASM_GOTO
  # -D KBUILD_BASENAME="devicetable_offsets"
  # -D KBUILD_MODNAME="devicetable_offsets"
- # -isystem /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mipsel_24kc_gcc-7.3.0_musl/bin/../lib/gcc/mipsel-openwrt-linux-musl/7.3.0/include
+ # -isystem /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mipsel_24kc_gcc-7.3.0_musl/lib/gcc/mipsel-openwrt-linux-musl/7.3.0/include
  # -include ./include/linux/kconfig.h
  # -MD scripts/mod/.devicetable-offsets.s.d
  # scripts/mod/devicetable-offsets.c -G 0 -mel -mno-check-zero-division
